@@ -23,8 +23,9 @@ header {
       font-weight: 700;
     }
 
-    a {
+    span {
       font-size: 22px;
+      cursor: pointer;
     }
   }
   .right {
@@ -34,8 +35,9 @@ header {
     gap: 20px;
     padding: 0px 50px 0px 0px;
 
-    a {
+    span {
       font-size: 18px;
+      cursor: pointer;
     }
 
     .btn {
@@ -57,9 +59,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    a {
+    span {
       text-decoration: none;
       color: #ccc;
+      cursor: pointer;
       &:hover {
         color: #000;
       }

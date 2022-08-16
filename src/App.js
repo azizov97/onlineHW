@@ -16,21 +16,19 @@ function App() {
     <>
       <header className="navbar fixed-top">
         <div className="left">
-          <a className="navbar-brand" href="#">
+          <span className="navbar-brand" href="#">
             WIX
-          </a>
-          <a href="#" className="nav-link">
+          </span>
+          <span className="nav-link">
             <i class="fa-solid fa-tv"></i>
-          </a>
-          <a href="#" className="nav-link">
+          </span>
+          <span className="nav-link">
             <i class="fa-solid fa-mobile-screen"></i>
-          </a>
+          </span>
         </div>
         <div className="right">
-          <a>Нажмите Редактировать, чтобы создать ваш сайт!</a>
-          <a href="#" className="nav-link">
-            Подробнее
-          </a>
+          <span>Нажмите Редактировать, чтобы создать ваш сайт!</span>
+          <span className="nav-link">Подробнее</span>
           <button className="btn btn-primary">Редактировать</button>
         </div>
       </header>
@@ -38,9 +36,9 @@ function App() {
         <div className="container text-center">
           <h1>Олег Марков</h1>
           <div className="links">
-            <a href="#">Главная</a>
-            <a href="#">Обо мне</a>
-            <a href="#">Связаться</a>
+            <span>Главная</span>
+            <span>Обо мне</span>
+            <span>Связаться</span>
           </div>
           <div className="images container">
             <div className="left">
